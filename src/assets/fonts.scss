@@ -1,0 +1,171 @@
+
+@font-face {
+  font-display: swap;
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu Mono"),local("UbuntuMono"),local("Ubuntu Mono Regular"),url(./font-ubuntu-mono-latin-400.13a64d19.woff2) format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font-ubuntu-mono-latin-ext-400.0a0ba971.woff2) format("woff2");
+  unicode-range: u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font-ubuntu-mono-cyryllic-400.f93db80a.woff2) format("woff2");
+  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font-rubik-latin-400.8d5d1de1.woff2) format("woff2"),url(./font-rubik-400.84344aed.woff) format("woff");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 400;
+  src: url(./font-rubik-latin-400-italic.98d82ee6.woff2) format("woff2"),url(./font-rubik-400-italic.e4e8dfb1.woff) format("woff");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font-rubik-latin-ext-400.645c763a.woff2) format("woff2");
+  unicode-range: u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 400;
+  src: url(./font-rubik-latin-ext-400-italic.9627a922.woff2) format("woff2");
+  unicode-range: u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font-rubik-cyrillic-400.fae65e28.woff2) format("woff2");
+  unicode-range: u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 400;
+  src: url(./font-rubik-cyrillic-400-italic.b5031052.woff2) format("woff2");
+  unicode-range: u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font-rubik-cyrillic-ext-400.e608037a.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 400;
+  src: url(./font-rubik-cyrillic-ext-400-italic.2f98f16d.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./font-rubik-latin-500.13a1f455.woff2) format("woff2"),url(./font-rubik-500.2b0a1c40.woff) format("woff");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 500;
+  src: url(./font-rubik-latin-500-italic.1d888c8a.woff2) format("woff2"),url(./font-rubik-500-italic.3b4d2d47.woff) format("woff");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./font-rubik-latin-ext-500.710985f4.woff2) format("woff2");
+  unicode-range: u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 500;
+  src: url(./font-rubik-latin-ext-500-italic.049de113.woff2) format("woff2");
+  unicode-range: u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./font-rubik-cyrillic-500.25cc2ba9.woff2) format("woff2");
+  unicode-range: u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 500;
+  src: url(./font-rubik-cyrillic-500-italic.4a5e3150.woff2) format("woff2");
+  unicode-range: u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./font-rubik-cyrillic-ext-500.b3c1322a.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Rubik;
+  font-style: italic;
+  font-weight: 500;
+  src: url(./font-rubik-cyrillic-ext-500-italic.5537a02a.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}

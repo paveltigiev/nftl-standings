@@ -1,27 +1,27 @@
 import { defineStore } from 'pinia'
 import { getStandingsRequest, getLeaguesAndRoundsRequest } from '../api'
-import { Standing, LeaguesAndRounds } from '../types'
+import { StandingInfo, LeagueAndRounds } from '../types'
 
 interface StandingsState {
-  standingsInfo: Standing[],
-  leaguesAndRounds: LeaguesAndRounds[]
+  standingInfo: StandingInfo | null,
+  leaguesAndRounds: LeagueAndRounds[] | null
 }
 
 // export const useStandingsStore = defineStore("standingsStore", () => {
 export const useStandingsStore = defineStore('standingsStore', {
   state: (): StandingsState => {
     return {
-      standingsInfo: [],
-      leaguesAndRounds: []
+      standingInfo: null,
+      leaguesAndRounds: null
     }
   },
   actions: {
     async getStandings(league_id: number | undefined, round_name: string) {
       try {
-        const standingsInfo  = await getStandingsRequest(league_id, round_name)
-        this.standingsInfo = standingsInfo
+        const standingInfo  = await getStandingsRequest(league_id, round_name)
+        this.standingInfo = standingInfo
       } catch (error) {
-        console.error('Error fetching standingsInfo:', error)
+        console.error('Error fetching standingInfo:', error)
       }
     },
     async getLeaguesAndRounds() {
